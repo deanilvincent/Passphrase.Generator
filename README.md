@@ -30,10 +30,13 @@ Import the package.
 ```
 public class MyClass {
     public void Test(){
+        var option = new Option { Length = 5 };
+        var result = PassphraseGenerator.Create(option);
+        // the result will be a list of strings: e.g. ['acceptable', 'wilderness', 'carsick', 'bypass', 'crossly']
+
         var option = new Option { Length = 5, StartsWith = 'a'' };
         var result = PassphraseGenerator.Create(option);
-        
-        // the result will be a list of strings: e.g. ['acceptable', 'wilderness', 'carsick', 'bypass', 'crossly']
+        // ['aback', 'abaft', 'abandoned', 'abashed', 'aberrant']
     }
 }
 ```
@@ -44,8 +47,8 @@ public class MyClass {
 
 | Property   | Desc.                                          |
 | ---------- | ---------------------------------------------- |
-| length     | word(s) that will return as array              |
-| startsWith | return words that start with the given letter |
+| Length     | Word(s) that will return as array              |
+| StartsWith (Nullable) | Return words that start with the given letter |
 
 ### Contribute
 
