@@ -8,15 +8,15 @@ You can install using the following options: Package Manager
 
 **Package Manager**
 ```
-Install-Package Passphrase.Generator
+Install-Package PassphraseGenerator
 ```
 **.NET CLI**
 ```
-dotnet add package Passphrase.Generator
+dotnet add package PassphraseGenerator
 ```
 **PackageReference**
 ```
-<PackageReference Include="Passphrase.Generator" Version="1.0.0" />
+<PackageReference Include="PassphraseGenerator" Version="1.0.0" />
 ```
 **Paket CLI**
 ```
