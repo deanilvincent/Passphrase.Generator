@@ -1,6 +1,4 @@
-﻿[![Build Status](https://dev.azure.com/dv-github-repos/generate-passphrase/_apis/build/status/deanilvincent.generate-passphrase?branchName=main)](https://dev.azure.com/dv-github-repos/generate-passphrase/_build/latest?definitionId=7&branchName=main)
-
-# Overview
+﻿# Overview
 
 NuGet package that generates passphrase.
 
